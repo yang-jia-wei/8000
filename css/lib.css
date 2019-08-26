@@ -1,0 +1,47 @@
+﻿#welcome{position: relative;}
+#cs{color: #fff;text-decoration: none;}
+#cs:hover{color: #fff;text-decoration: none;}
+#citylist{display: none;}
+.cityList{
+display:block;
+position:absolute;
+left:0;
+top:34px;
+width:700px;
+background:white;
+z-index:99999;
+overflow:hidden;
+border: 1px solid #eee;
+box-shadow: 5px 20px 40px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 5px 20px 40px rgba(0, 0, 0, 0.1);}
+.cityList .title{height:45px;line-height:25px;background-color:#F4F4F4;width:100%;padding:10px 0 0 15px;overflow:hidden;position:relative;color: #555;font-size:14px;font-family: Arial;font-weight:600;font-size:14px;}
+.cityList ul.titleChar{list-style:none;cursor:default;padding: 0;height:40px;}
+.cityList .titleChar .on{border-color:#E6DFDE;background-color:white;}
+.cityList .titleChar li{float:left;border:1px solid #F4F4F4;border-bottom:0;padding:6px 20px;height:40px;}
+.cityList .cityListBox{margin:8px 0 0 16px;color:#686868;overflow:hidden;display:inline-block;_position:relative;}
+.cityListBox dl{position:relative;overflow:hidden;zoom:1;}
+.cityListBox .hotCity{}
+.cityListBox .hotCity dd{}
+.cityListBox dl{padding: 15px!important;}
+.cityListBox dl dd{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	-o-justify-content: flex-start;
+	justify-content: flex-start;}
+.cityListBox dl dd span{color: #555;font-size:14px!important;font-family: Arial!important;padding:4px 8px!important;margin-right:5px!important;}
+.cityListBox dl dd a{color: #888;font-size: 14px!important;border: 1px solid #eee;padding:4px 8px!important;margin-right:5px!important;margin-bottom: 5px!important;}
+.cityListBox dl dd a:last-child{margin-right: 0!important;}
+.cityListBox dl dd a:hover{color: #237ac1}
+.cityListBox a{}
+.none{display:none;}
+
+.header .tel{ font-size:18px;line-height:22px;background-position:0 -112px;height:55px}
+.header .tel span{font-size: 16px;}
+#logo{display: none;}
