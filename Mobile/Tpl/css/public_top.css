@@ -1,0 +1,200 @@
+/*top*/
+.f14821117960
+	{
+		position:fixed;
+		width:100%;
+		height:2.8rem;
+		background-color:#FFF;
+		top:0rem;
+		left:0rem;
+		-webkit-box-shadow:5px 3px 10px rgba(0,0,0,0.8);
+		-moz-box-shadow:5px 3px 10px rgba(0,0,0,0.8);
+		box-shadow:5px 3px 10px rgba(0,0,0,0.8);
+		overflow:hidden;
+		text-align:center;
+		line-height:2.8rem;
+		z-index:2;
+	}
+.f14821117961
+	{
+		position:relative;
+	}
+.f14821117962
+	{
+		position:absolute;
+		top:0rem;
+		left:0rem;
+	}
+.f14821117964
+	{
+		width:auto;
+		height:1.5rem;
+		display:block;
+		margin:0.6rem 0.7rem;
+	}
+.f14821117965
+	{
+		position:absolute;
+		top:0rem;
+		right:4.6rem;
+	}
+.f14821117966
+	{
+		display:block;
+		width:auto;
+		height:0.8rem;
+		margin:1rem 0rem;
+	}
+.f14821117967
+	{
+		position:absolute;
+		top:0rem;
+		right:0rem;
+	}
+.f14821117968
+	{
+		display:block;
+		width:auto;
+		height:1.2rem;
+		margin:0.8rem 0.7rem;
+		cursor:pointer;
+	}
+.f14821117969
+	{
+		color:#A41C1C;
+		font-size:1.2rem;
+	}
+/*导航*/
+.f14821124751
+	{
+		overflow:hidden;
+	}
+.f14821124752
+	{
+		position:fixed;
+		height:100%;
+		width:100%;
+		top:0rem;
+		right:100%;
+		background-color:rgba(0,0,0,0.9);
+		z-index:5;
+		transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		-webkit-transition:all 0.5s ease-in-out; 
+		-ms-transition:all 0.5s ease-in-out;
+	}
+.f14821124753
+	{
+		position:relative;
+	}
+.f14821124754
+	{
+		position:absolute;
+		height:1.2rem;
+		width:auto;
+		right:0.5rem;
+		top:0.8rem;
+	}
+.f14476380861
+	{
+		position:fixed;
+		width:220px;
+		height:100%;
+		background-color:#000;
+		top:0rem;
+		right:-100%;
+		transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		-webkit-transition:all 0.5s ease-in-out; 
+		-ms-transition:all 0.5s ease-in-out;
+		z-index:3;
+	}
+.f14476380863
+	{
+		line-height:3.2rem;
+		border-bottom:0.1rem solid #303030;
+		padding-left:3.6rem;
+		font-size:1rem;
+	}
+.f14476380863 .f14476380864
+	{
+		color:#FFF;
+		background-size:1.2rem auto;
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left:1.8rem;
+	}
+.f14476380863 .f14476380865
+	{
+		color:#FFF;
+	}
+/*搜索*/
+.f14821137641
+	{
+		position:fixed;
+		background-color:#232323;
+		width:100%;
+		left:0rem;
+		top:2.8rem;
+		display:none;
+	}
+.f14821137642
+	{
+		height:12rem;
+		overflow:auto;
+		padding:0.4rem 1rem;
+		color:#ffffff;
+	}
+.f14821137655
+	{
+		line-height:1.4rem;
+	}
+.f14821137652
+	{
+		overflow:hidden;
+		margin-top:0.2rem;
+	}
+.f14821137652 .f14821137653
+	{
+		background-color:#FFF;
+		border:none;
+		height:2rem;
+		width:76%;
+		padding:0rem 2%;
+		float:left;
+	}
+.f14821137652 .f14821137654
+	{
+		display:block;
+		width:20%;
+		height:2rem;
+		border:none;
+		background-color:#333333;
+		background-image:url(../images/icon_12.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+/*产品中心*/
+.f14821141471
+	{
+		margin-top:0.4rem;
+	}
+.f14821141473
+	{
+		margin-top:0.6rem;
+	}
+.f14821141475
+	{
+		background-color:#FFF;
+		line-height:1.8rem;
+		margin-bottom:0.4rem;
+		padding-left:0.8rem;
+		padding-right:1rem;
+	}
+.f14821141475 .f14821141476
+	{
+		display:block;
+		color:#666666;
+		background:url(../images/icon_13.jpg) no-repeat;
+		background-position:right center;
+	}

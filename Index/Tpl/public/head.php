@@ -34,31 +34,33 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/lib.css">
-    <script charset="utf-8" src="js/b.js">
-    </script><script src="js/hm.js"></script>
+
     <script type="text/javascript" src="js/jquery_002.js"></script>
     <script type="text/javascript" src="js/lib.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript">
-        function uaredirect(murl){
-            try{
-                if(document.getElementById("bdmark") != null) {
-                    return
-                }
-                var urlhash = window.location.hash;
-                if(!urlhash.match("fromapp")){
-                    if((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
-                        location.replace(murl);
-                    }
-                }
-            }catch(err){}
-        }
-        uaredirect("/m/");
-    </script>
-    <link rel="stylesheet" href="css/layer.css" id="layuicss-layer"><script src="js/pc_nb.js" charset="UTF-8"></script><link rel="stylesheet" type="text/css" href="css/main.css"><script type="text/javascript" src="js/poll.js" id="id_jsonp_bridge_1566781322795_8258239551258506" charset="utf-8"></script></head>
+
+    <link rel="stylesheet" href="css/layer.css" id="layuicss-layer">
+    <script src="js/pc_nb.js" charset="UTF-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/poll.js" id="id_jsonp_bridge_1566781322795_8258239551258506" charset="utf-8"></script></head>
 <body>
 
+<?php if(file_exists('mobile.php')){?>
+    <script type="text/javascript">
+        function IsPC()
+        {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+            }
+            return flag;
+        }
+        if(!IsPC())window.location.href="<?php echo $mobile_url;?>";
 
+    </script>
+<?php }?>
 <div class="wrapper">
     <div class="header">
         <div class="top">

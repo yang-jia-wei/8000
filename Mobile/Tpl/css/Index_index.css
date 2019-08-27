@@ -1,0 +1,407 @@
+/*top*/
+.f14821146651
+	{
+		/*position:fixed;*/
+		width: 100%;
+		/*height: 2.8rem;*/
+		background-color: #FFF;
+		top: 0rem;
+		left: 0rem;
+		-webkit-box-shadow: 5px 3px 10px rgba(0,0,0,0.8);
+		-moz-box-shadow: 5px 3px 10px rgba(0,0,0,0.8);
+		box-shadow: 5px 3px 10px rgba(0,0,0,0.8);
+		overflow: hidden;
+		text-align: center;
+		line-height: 2.8rem;
+		z-index: 2;
+	}
+.f14821146652
+	{
+		position:relative;
+	}
+.f14821146653	
+	{
+		position:absolute;
+		top:0rem;
+		left:0rem;
+	}
+.f14821146654	
+	{
+		display:block;
+		width:auto;
+		height:1.4rem;
+		margin:0.7rem 0.7rem;
+		cursor:pointer;
+	}
+.f14821146661
+	{
+		margin:0rem 3.6rem;
+	}
+.f14821146662
+	{
+		display:table-cell;
+		/*height:2.8rem;*/
+		vertical-align:middle;
+		text-align:center;
+	}
+.f14821146663
+	{
+		/*max-height:2.5rem;
+		height:5rem;*/
+		width:70%;
+	}
+/*搜索*/
+.f14821151881
+	{
+		position:fixed;
+		width:100%;
+		height:2.8rem;
+		left:0rem;
+		top:-2.8rem;
+		z-index:3;
+		overflow:hidden;
+		background-color:#FFF;
+		transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		-webkit-transition:all 0.5s ease-in-out; 
+		-ms-transition:all 0.5s ease-in-out;
+	}
+.f14821151883
+	{
+		position:relative;
+		height:100%;
+		padding-left:6rem;
+		overflow:hidden;
+	}
+.f14821151882
+	{
+		position:absolute;
+		width:1rem;
+		left:1rem;
+		height:100%;
+		background:url(../images/icon_15.jpg) no-repeat;
+		background-position:center;
+		cursor:pointer;
+	}
+.f14821151883 .f14821151884
+	{
+		color:#a9a9a9;
+		width:55%;
+		border:none;
+		height:2rem;
+		margin-top:0.5rem;
+		float:left;
+		padding:0rem 2%;
+	}
+.f14821151883 .f14821151885
+	{
+		width:10%;
+		border:none;
+		height:2rem;
+		background:url(../images/icon_14.jpg) no-repeat;
+		background-position:center;
+		float:left;
+		margin-top:0.5rem;
+	}
+/*导航*/
+.f14821156861
+	{
+		margin-top:-2.5rem;
+		overflow:hidden;
+		background-color:#A41C1C;
+	}
+.f14821156862
+	{
+		position:relative;
+	}
+.f14821156869
+	{
+		position:absolute;
+		width:100%;
+		height:2rem;
+		background-color:#A41C1C;
+		top:0rem;
+		left:0rem;
+	}
+.f14821156863
+	{
+		float:left;
+		width:25%;
+		line-height:2rem;
+		text-align:center;
+		position:relative;
+		z-index:1;
+	}
+.f14821156864 .f14821156865
+	{
+		display:block;
+		color:#FFF;
+		font-size:0.8rem;
+		font-weight:lighter;
+	}
+/*banner*/
+.f14821165721
+	{
+		position:relative;
+		overflow:hidden;
+	}
+.f14821165722
+	{
+		position:absolute;
+		width:100%;
+		bottom:0.5rem;
+		text-align:center;
+		z-index:2;
+	}
+.f14821165723
+	{
+		display:inline-block;
+	}
+.f14821165724	
+	{
+		float:left;
+		background-color:#fc5505;
+		width:0.7rem;
+		height:0.7rem;
+		border-radius:1rem;
+		margin:0rem 0.2rem;
+	}
+.f14821165724.on
+	{
+		background-color:#ffffff;
+	}
+.f14821165728
+	{
+		display:block;
+		height:8rem;
+		
+	}
+.f14821165728 img
+	{
+		opacity:0;
+	}
+/*图片导航*/
+.f14821167901
+	{
+		background-color:#ececec;
+		padding:0.5rem 0rem;
+	}
+.f14821167902
+	{
+		overflow:hidden;
+	}
+.f14821167903
+	{
+		float:left;
+		width:25%;
+	}
+.f14821167909
+	{
+		margin:0rem 0rem;
+		color:#333333;
+		font-size:0.8rem;
+		text-align:center;
+		line-height:1.4rem;
+	}
+.f14821167905
+	{
+		margin-bottom:0.2rem;
+	}
+.f14821167906
+	{
+		width:66%;
+		border-radius:5rem;
+		border:0.1rem solid #dfdfdf;
+	}
+/*关于我们*/
+.f14821339541
+	{
+		overflow:hidden;
+	}
+.f14821339542	
+	{
+		line-height:2.2rem;
+		text-align:center;
+		color:#A41C1C;
+		font-size:0.8rem;
+		border-bottom:0.1rem solid #e1e1e1;
+	}
+.f14821339543	
+	{
+		display:inline-block;
+		padding-left:4.4rem;
+		background:url(../images/icon_18.jpg) no-repeat;
+		background-position:left center;
+	}
+.f14821339543 div
+	{
+		padding-right:4.4rem;
+		background:url(../images/icon_28.jpg) no-repeat;
+		background-position:right center;
+	}
+.f14821339544
+	{
+		overflow:hidden;
+		color:#000;
+		padding:0.4rem 0.6rem;
+		font-size:0.8rem;
+		line-height:1.4rem;
+	}
+.f14821339545
+	{
+		background-color:#e1e1e1;
+		line-height:1.8rem;
+		text-align:center;
+	}
+.f14821339545 .f14821339546
+	{
+		color:#4b4b4b;
+		font-size:0.8rem;
+	}
+/*产品中心*/
+.f14821344843
+	{
+		background-color:#ff5400;
+		line-height:1.8rem;
+		overflow:hidden;
+		font-size:0.8rem;
+	}
+.f14821344845
+	{
+		float:left;
+		margin:0rem 0.5rem;
+	}
+.f14821344845 .f14821344846
+	{
+		color:#ffffff;
+	}
+.f14821175995
+	{
+		margin:0.8rem 0rem;
+		overflow:hidden;
+	}
+.f14821175997
+	{
+		width:50%;
+		float:left;
+	}
+.f14821175998
+	{
+		margin:0rem 0.5rem;
+	}
+.f14821176001
+	{
+		border:0.14rem solid #e0e0e0;
+		border-radius:0.2rem;
+	}
+.f14821176002
+	{
+		text-align:center;
+		color:#333333;
+		line-height:1.8rem;
+		height:1.8rem;
+		overflow:hidden;
+	}
+/*维修保养*/
+.f14821196911
+	{
+		margin:0.8rem 0.6rem;
+	}
+.f14821196913
+	{
+		overflow:hidden;
+		margin-bottom:0.5rem;
+	}
+.f14821196915
+	{
+		float:left;
+	}
+.f14821196916
+	{
+		width:32vw;
+	}
+.f14821196917
+	{
+		float:right;
+		width:60vw;
+		font-size:0.8rem;
+	}
+.f14821196918
+	{
+		color:#000000;
+		font-weight:bold;
+		line-height:1.4rem;
+		height:1.4rem;
+		overflow:hidden;
+	}
+.f14821196919
+	{
+		color:#939393;
+		height:3.5rem;
+		overflow:hidden;
+	}
+.f14821184376 .f14821184377
+	{
+		display:block;
+		color:#000;
+		border-top:0.1rem solid #e5e5e5;
+		line-height:2rem;
+		font-size:0.8rem;
+		height:2rem;
+		overflow:hidden;
+	}
+/*资质荣誉*/
+.f14821354211
+	{
+		overflow:hidden;
+		margin:0.6rem 0.2rem;
+	}
+.f14821354213
+	{
+		float:left;
+		width:33.3333333%;
+	}
+.f14821354214
+	{
+		margin:0rem 0.2rem;
+		text-align:center;
+	}
+.f14821354218
+	{
+		color:#333333;
+		font-size:0.8rem;
+		line-height:1.4rem;
+	}
+/*简单资料*/
+.f14821357411
+	{
+		background-color:#ff5400;
+		text-align:center;
+		overflow:hidden;
+		padding:0.5rem 0rem;
+	}
+.f14821357412
+	{
+		padding-top:2.4rem;
+		padding-bottom:0.6rem;
+		color:#FFF;
+		font-size:1.4rem;
+		background:url(../images/icon_17.png) no-repeat;
+		background-size:240px auto;
+		background-position:center;
+	}
+.f14821357413
+	{
+		color:#FFF;
+		font-size:0.8rem;
+		line-height:1.4rem;
+	}
+.f14478340261
+	{
+		text-align: center;
+		overflow: hidden;
+		color: #333333;
+		font-size: 0.8rem;
+		line-height: 1.4rem;
+		padding: 0.4rem 0.6rem;
+	}
