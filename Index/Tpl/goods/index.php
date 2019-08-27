@@ -18,40 +18,41 @@
     <div class="service-list flex-sb">
         <div class="service-item">
             <div class="sub-title">
-                检测目的<span>Detection purpose</span> 
+                <?php $classify=M('classify')->where(array('classify_id'=>236))->find();echo $classify['classify_name'];?><span><?php $classify=M('classify')->where(array('classify_id'=>236))->find();echo $classify['en_name'];?></span>
             </div>
             <ul class="text-ul">
+                <?php $list=M('classify')->where(array('classify_pid'=>236))->order('date asc')->select();         
+                foreach($list as $k=>$v){
+                    ?>
                 <li>
-                    CMA检测资质，按照标准流程检测，确保数据真实、可信
+                    <?php $classify=M('classify')->where(array('classify_id'=>$v['classify_id']))->find();echo $classify['classify_name'];?>
                 </li>
-                <li>
-                    检测室内甲醛浓度高低，为后续空气治理方案作为技术参考。
-                </li>
-                <li>
-                    针对重点污染地方，采取特殊的处理技术。
-                </li>
-                <li>
-                    方便甲方与后续治理完检测结果数据做对比。
-                </li>
+                <?php }?>
             </ul>
         </div>
         <div class="service-item">
             <div class="sub-title">
-                检测设备<span>Detection equipment</span> 
+                <?php $classify=M('classify')->where(array('classify_id'=>241))->find();echo $classify['classify_name'];?><span><?php $classify=M('classify')->where(array('classify_id'=>241))->find();echo $classify['en_name'];?>
+</span>
             </div>
             <ul class="img-ul flex-sb">
+                <?php $list=M('classify')->where(array('classify_pid'=>241))->order('date asc')->select();          
+                foreach($list as $k=>$v){
+                    ?>
                 <li>
                     <p>
-                        甲醛检测仪 [HTV]
+                        <?php $classify=M('classify')->where(array('classify_id'=>$v['classify_id']))->find();echo $classify['classify_name'];?>
                     </p>
-<img src="images/s-sb2.jpg">
+<!--<img src="images/s-sb2.jpg">-->
+                    <?php $classify=M('classify')->where(array('classify_id'=>$v['classify_id']))->find();echo $classify['classify_intro'];?>
                 </li>
-                <li>
-                    <p>
-                        双气路大气采样仪
-                    </p>
-<img src="images/s-sb1.jpg">
-                </li>
+                <?php }?>
+<!--                <li>-->
+<!--                    <p>-->
+<!--                        双气路大气采样仪-->
+<!--                    </p>-->
+<!--<img src="images/s-sb1.jpg">-->
+<!--                </li>-->
             </ul>
         </div>
     </div>

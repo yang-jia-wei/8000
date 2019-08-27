@@ -1,10 +1,10 @@
-<?php require APP_ROOT.'public/top.php';?>
+<?php if (!defined('THINK_PATH')) exit(); require APP_ROOT.'public/top.php';?>
 <link rel="stylesheet" href="css/case.css">
-<?php if(strpos($_SERVER["QUERY_STRING"],'classify_id=207')){       ?>
+<?php if(strpos($_SERVER["QUERY_STRING"],'classify_id=207')){ ?>
 
 <div class="sub-banner" style="background-image: url(http://oa.vanceair.com/imgs/image/20181204/20181204095733483348.jpg)"></div>
 <div class="location">
-    <i class="iconfont icon-shouyeshouye3"></i> 您现在的位置：<a href="http://www.fansinn.com/index.html"> <?php echo  $_SERVER["QUERY_STRING"];?>首页 </a>
+    <i class="iconfont icon-shouyeshouye3"></i> 您现在的位置：<a href="http://www.fansinn.com/index.html"> <?php echo $_SERVER["QUERY_STRING"];?>首页 </a>
     <i class="iconfont icon-icon-arrowright"></i><a href="http://www.fansinn.com/case.html"> 重点案例  </a>
 </div>
 <div class="case">

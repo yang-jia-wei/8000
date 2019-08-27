@@ -1,0 +1,134 @@
+﻿/*当前位置*/
+.location {
+	font-size: 14px;
+	line-height: 40px;
+	color: #999;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: right;
+	position: relative;
+}
+.location a {color: #666666;text-decoration: none;}
+.location a:hover {	color: #2d82c5;	text-decoration:none;}
+.sub-banner{background-position: center top; background-repeat: no-repeat; background-size: cover;height: 550px;}
+.container .subtitle h1,h2,h3{text-align: center;}
+.container .subtitle h1{font-size:36px;font-weight:100;color: #333;letter-spacing: 2px;margin-bottom: 20px;}
+.container .subtitle h1 span{color:#237ac1; }
+.container .subtitle h2{}
+.container .subtitle h3{font-size:14px;font-weight:normal;color: #999;position:relative;width:50%;margin: 0 auto;font-family:Arial;text-transform: uppercase;}
+.container .subtitle h3:before{content:'';width:100px;height:1px;background-color:#999;position:absolute;left:0;top:-5px;}
+.container .subtitle h3:after{content:'';width:100px;height:1px;background-color:#999;position:absolute;right:0;top:-5px;}
+
+/*联系我们*/
+.sub-contact{padding:40px 0; background-color:#f8f8f8;}
+/*update 2019-12-13*/
+.contact-title{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	margin: 20px auto 60px auto;
+	align-items: center;
+}
+.contact-title h3{color: #066cc6;font-size: 32px;position: relative;letter-spacing: 2px;}
+.contact-title h3:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	width: 60px;
+	height: 3px;
+	background-color: #969696;
+}
+.contact-title p{font-size: 22px;color: #666;text-transform: uppercase;font-family:"Century Gothic";font-weight: 800;text-align: right;}
+.contact-info{padding: 40px 0 0 0;}
+.contact-info .contact-info-title{margin-bottom: 30px;}
+.contact-info .contact-info-title h4{color: #066cc6;font-size: 28px;letter-spacing: 2px;font-weight: 500;}
+.contact-info .contact-info-title span{font-size: 16px;color: #999;text-transform: uppercase;font-weight: 500;font-family:"Century Gothic";}
+.contact-info p{font-size: 20px;color: #666;line-height: 40px;}
+.contact-info p b{font-family:"Century Gothic";}
+.contact-list{}
+.contact-list .city-cont{}
+.contact-list .city-cont .title{
+	background-color: #e7e7e7;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	-o-justify-content: flex-start;
+	justify-content: flex-start;
+	padding: 0 20px;line-height: 50px;margin: 0 0 30px 0;
+}
+.contact-list .city-cont .title .city-title{color: #666;letter-spacing: 1px;font-size: 16px;font-weight: 600;padding: 0 30px 0 0;}
+.contact-list .city-cont .title ul.city-zm{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	-o-justify-content: flex-start;
+	justify-content: flex-start;
+	padding: 0;margin: 0;
+}
+.city-cont .city-zm .on{background-color: #fff;}
+.city-cont .city-zm li{font-family:"Century Gothic";font-size: 16px;font-weight: 600;color: #666;padding: 0 12px; cursor: pointer;}
+.city-cont .city-contBox{margin:10px 0 0 0;color:#686868;overflow:hidden;_position:relative;}
+.city-contBox dl{position:relative;overflow:hidden;zoom:1;}
+.city-contBox .hotCity{}
+.city-contBox .hotCity dd{}
+.city-contBox dl{display: block;width: 100%;}
+.city-contBox dl dd{width: 100%;padding: 0;margin: 0 0 30px 0;display: block}
+.city-contBox dl dd .city-name{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;}
+.city-contBox dl dd .city-name h6{text-align: left;font-size: 22px;color: #116fbc;font-weight: 500;}
+.city-contBox dl dd .city-name h6 i{font-size: 2.2rem;}
+.city-contBox dl dd .city-name a{text-align: right;font-size: 18px;color: #666;}
+.city-contBox dl dd .city-name a i{font-size: 2rem;}
+.city-contBox dl dd .city-name a:hover{text-decoration: none;color:#116fbc; }
+.city-contBox dl dd .city-info{padding:30px 20px;background-color: #e7e7e7;}
+.city-contBox dl dd .city-info p{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+}
+.city-contBox dl dd .city-info p span{display: block;width: 50%;text-align: left;}
+.city-contBox dl dd .city-info p b{font-weight: 500;font-size: 20px;}
+.none{display:none;}
+.contact-list{}
+.contact-list .contact-list-title{text-align: center;padding: 50px 0;}
+.contact-list .contact-list-title h4{font-size: 28px;color: #116fbc;}
+.contact-list .contact-list-title span{display: block;color: #999999;font-size: 16px;text-transform: uppercase;font-family:"Century Gothic";}

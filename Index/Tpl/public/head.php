@@ -89,7 +89,7 @@
                                 <ul class="dropdown-menu animated">
                                     <?php $list2=M('classify')->where(array('classify_pid'=>$v['classify_id']))->order('date asc')->select();
                                     foreach($list2 as $k2=>$v2){?>
-                                    <li><a href="<?php echo classify_url($v['type_id'],$v['classify_id']);?>" title="室内空气治理"><?php echo $v2['classify_name'];?></a></li>
+                                    <li><a href="<?php echo classify_url($v2['type_id'],$v2['classify_id']);?>" title="室内空气治理"><?php echo $v2['classify_name'];?></a></li>
                                     <?php }?>
                                 </ul>
                                     <?php }?>
